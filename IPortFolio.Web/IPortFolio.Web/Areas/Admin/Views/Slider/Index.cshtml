@@ -1,0 +1,51 @@
+﻿@model IEnumerable<SliderViewModel>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+
+<section class="section profile">
+    <div class="row">
+        <div class="col-xl-8">
+
+            <div class="card">
+                <div class="card-body pt-3">
+
+                    <div class="tab-content pt-2">
+
+                        <div class="tab-pane fade show active profile-overview" id="profile-overview">
+
+                            <h5 class="card-title">Slider Detayları</h5>
+
+                            <div class="row">
+                                <div class="col-lg-3 col-md-4 label ">Arka Plan</div>
+                                <div class="col-lg-9 col-md-8">
+                                    <img class="rounded" style="width:200px;" src="~/images/@ViewBag.Slider.Image" alt="Resim yok" />
+                                </div>
+                            </div>
+                            
+                            <div class="row">
+                                <div class="col-lg-3 col-md-4 label">Başlık</div>
+                                <div class="col-lg-9 col-md-8">@ViewBag.Slider.Title</div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-lg-3 col-md-4 label">İçerik</div>
+                                <div class="col-lg-9 col-md-8">@ViewBag.Slider.Content</div>
+                            </div>
+
+                            <a class="btn btn-sm btn-outline-primary" asp-controller="Slider" asp-action="Edit" asp-route-id="@ViewBag.Slider.Id">Slider Düzenle</a>
+
+                        </div>
+
+
+                    </div><!-- End Bordered Tabs -->
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>

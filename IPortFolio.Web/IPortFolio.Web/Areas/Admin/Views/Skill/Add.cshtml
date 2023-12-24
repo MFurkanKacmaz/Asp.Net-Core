@@ -1,0 +1,56 @@
+﻿@model SkillViewModel
+
+@{
+    ViewData["Title"] = "Add";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+<section class="section profile">
+    <div class="row">
+        <div class="col-xl-8">
+
+            <div class="card">
+                <div class="card-body pt-3">
+
+                    <div class="tab-content pt-2">
+
+                        <div class="tab-pane fade show active profile-overview" id="profile-overview">
+
+                            <h5 class="card-title">Yetenek Ekle</h5>
+
+                            <!-- Skill Add Form -->
+                            <form asp-area="Admin" asp-controller="Skill" asp-action="Add" method="post" enctype="multipart/form-data">
+
+                                <div class="row mb-3">
+                                    <label asp-for="Name" class="col-md-4 col-lg-3 col-form-label">Alan</label>
+                                    <div class="col-md-8 col-lg-9">
+                                        <input asp-for="Name" class="form-control">
+                                    </div>
+                                </div>
+
+                                <div class="row mb-3">
+                                    <label asp-for="Ratio" class="col-md-4 col-lg-3 col-form-label">Yetkinlik (%)</label>
+                                    <div class="col-md-8 col-lg-9">
+                                        <input asp-for="Ratio" class="form-control">
+                                    </div>
+                                </div>
+
+                                <div class="text-center">
+                                    <button type="submit" class="btn btn-primary">Kaydet</button>
+                                </div>
+                            </form>
+                            <!-- End Skill Add Form -->
+
+
+                        </div>
+
+
+                    </div><!-- End Bordered Tabs -->
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+

@@ -1,0 +1,75 @@
+﻿@model IEnumerable<ResumeViewModel>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+<section class="section profile">
+    <div class="row">
+        <div class="col-xl-11">
+
+            <div class="card">
+                <div class="card-body pt-3">
+
+                    <div class="tab-content pt-2">
+
+                        <div class="tab-pane fade show active profile-overview" id="profile-overview">
+
+                            <div class="row">
+                                <div class="col-md-10 col-sm-6">
+                                    <h5 class="card-title d-inline">Öz Geçmiş Detayları</h5>
+                                </div>
+                                <div class="col-md-2 col-sm-6">
+                                    <a class="btn btn-sm btn-outline-success" asp-controller="Resume" asp-action="Add">Yeni Ekle</a>
+                                </div>
+
+                            </div>
+                            @*
+                            <div class="" style="text-align:end;">
+                            <a class="btn btn-sm btn-outline-primary" asp-controller="Skill" asp-action="Add">Yeni Ekle</a>
+                            </div>
+                            *@
+
+                            <!-- Table with hoverable rows -->
+                            <table class="table table-hover">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">Departman</th>
+                                        <th scope="col">Yıl</th>
+                                        <th scope="col">Kurum</th>
+                                        <th scope="col">Açıklama</th>
+                                        <th scope="col">İşlem</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var resume in ViewBag.Resumes)
+                                    {
+                                        <tr>
+                                            <td>@resume.Department</td>
+                                            <td>@resume.StartYear.Year - @resume.EndYear.Year</td>
+                                            <td>@resume.Organisation</td>
+                                            <td>@resume.Content</td>
+                                            <td>
+                                                <a class="btn btn-sm btn-outline-primary" asp-controller="Resume" asp-action="Edit" asp-route-id="@resume.Id">Düzenle</a>
+                                                &nbsp;
+                                                <a class="btn btn-sm btn-outline-danger" asp-controller="Resume" asp-action="Delete" asp-route-id="@resume.Id">Sil</a>
+                                            </td>
+                                        </tr>
+                                    }
+                                </tbody>
+                            </table>
+
+
+
+                        </div>
+
+
+                    </div><!-- End Bordered Tabs -->
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>

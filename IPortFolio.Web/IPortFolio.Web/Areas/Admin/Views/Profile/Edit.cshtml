@@ -1,0 +1,120 @@
+﻿@model ProfileViewModel
+
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+
+<section class="section profile">
+    <div class="row">
+        <div class="col-xl-8">
+
+            <div class="card">
+                <div class="card-body pt-3">
+
+                    <div class="tab-content pt-2">
+
+                        <div class="tab-pane fade show active profile-overview" id="profile-overview">
+
+                            <h5 class="card-title">Profil Düzenle</h5>
+
+                            <!-- Profile Edit Form -->
+                            <form asp-area="Admin" asp-controller="Profile" asp-action="Edit" method="post" enctype="multipart/form-data">
+
+                                <input asp-for="Id" type="hidden">
+
+                                <div class="row mb-3">
+                                    <label asp-for="Image" class="col-md-4 col-lg-3 col-form-label">Profil Foto</label>
+                                    <div class="col-md-8 col-lg-9">
+                                        <img src="~/images/@Model.Image" alt="Profile" class="rounded" style="width:100px;">
+
+                                        <input asp-for="UploadImage" type="file" class="form-control mt-3">
+                                   @*      <div class="pt-2">
+                                            <a href="#" class="btn btn-primary btn-sm" title="Upload new profile image"><i class="bi bi-upload"></i></a>
+                                            <a href="#" class="btn btn-danger btn-sm" title="Remove my profile image"><i class="bi bi-trash"></i></a>
+                                        </div> *@
+                                    </div>
+                                </div>
+                                <hr />
+                                <div class="row mb-3">
+                                    <label asp-for="FullName" class="col-md-4 col-lg-3 col-form-label">İsim</label>
+                                    <div class="col-md-8 col-lg-9">
+                                        <input asp-for="FullName" class="form-control">
+                                    </div>
+                                </div>
+
+                                <div class="row mb-3">
+                                    <label asp-for="Job" class="col-md-4 col-lg-3 col-form-label">Meslek</label>
+                                    <div class="col-md-8 col-lg-9">
+                                        <input asp-for="Job" class="form-control">
+                                    </div>
+                                </div>
+
+                                <div class="row mb-3">
+                                    <label asp-for="Location" class="col-md-4 col-lg-3 col-form-label">Adres</label>
+                                    <div class="col-md-8 col-lg-9">
+                                        <input asp-for="Location" class="form-control">
+                                    </div>
+                                </div>
+
+                                <div class="row mb-3">
+                                    <label asp-for="PhoneNumber" class="col-md-4 col-lg-3 col-form-label">Telefon</label>
+                                    <div class="col-md-8 col-lg-9">
+                                        <input asp-for="PhoneNumber" class="form-control">
+                                    </div>
+                                </div>
+
+                                <div class="row mb-3">
+                                    <label asp-for="Email" class="col-md-4 col-lg-3 col-form-label">Email</label>
+                                    <div class="col-md-8 col-lg-9">
+                                        <input asp-for="Email" class="form-control">
+                                    </div>
+                                </div>
+
+                                <div class="row mb-3">
+                                    <label asp-for="Twitter" class="col-md-4 col-lg-3 col-form-label">Twitter</label>
+                                    <div class="col-md-8 col-lg-9">
+                                        <input asp-for="Twitter" class="form-control">
+                                    </div>
+                                </div>
+
+                                <div class="row mb-3">
+                                    <label asp-for="Facebook" class="col-md-4 col-lg-3 col-form-label">Facebook</label>
+                                    <div class="col-md-8 col-lg-9">
+                                        <input asp-for="Facebook" class="form-control">
+                                    </div>
+                                </div>
+
+                                <div class="row mb-3">
+                                    <label asp-for="Instagram" class="col-md-4 col-lg-3 col-form-label">Instagram</label>
+                                    <div class="col-md-8 col-lg-9">
+                                        <input asp-for="Instagram" class="form-control">
+                                    </div>
+                                </div>
+
+                                <div class="row mb-3">
+                                    <label asp-for="LinkedIn" class="col-md-4 col-lg-3 col-form-label">Linkedin</label>
+                                    <div class="col-md-8 col-lg-9">
+                                        <input asp-for="LinkedIn" class="form-control">
+                                    </div>
+                                </div>
+
+                                <div class="text-center">
+                                    <button type="submit" class="btn btn-primary">Kaydet</button>
+                                </div>
+                            </form>
+                            <!-- End Profile Edit Form -->
+
+
+                        </div>
+
+
+                    </div><!-- End Bordered Tabs -->
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>

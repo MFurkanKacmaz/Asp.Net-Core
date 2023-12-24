@@ -1,0 +1,61 @@
+﻿@model PortfolioViewModel
+
+@{
+    ViewData["Title"] = "Add";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+<section class="section profile">
+    <div class="row">
+        <div class="col-xl-8">
+
+            <div class="card">
+                <div class="card-body pt-3">
+
+                    <div class="tab-content pt-2">
+
+                        <div class="tab-pane fade show active profile-overview" id="profile-overview">
+
+                            <h5 class="card-title">Portfolio Ekle</h5>
+
+                            <!-- Portfolio Add Form -->
+                            <form asp-area="Admin" asp-controller="Portfolio" asp-action="Add" method="post" enctype="multipart/form-data">
+
+                                <div class="row mb-3">
+                                    <label asp-for="UploadImage" class="col-md-4 col-lg-3 col-form-label">Foto</label>
+                                    <div class="col-md-8 col-lg-9">
+                                        <input asp-for="UploadImage" type="file" class="form-control">
+                                    </div>
+                                </div>
+
+                                <div class="row mb-3">
+                                    <label asp-for="Category" class="col-md-4 col-lg-3 col-form-label">Kategori</label>
+                                    <div class="col-md-8 col-lg-9">
+                                        <select asp-for="Category" class="form-control">
+                                            <option value="">Seçiniz..</option>
+                                            <option value="app">Uygulama</option>
+                                            <option value="card">Kart</option>
+                                            <option value="web">Web</option>
+                                        </select>
+                                    </div>
+                                </div>
+
+                                <div class="text-center">
+                                    <button type="submit" class="btn btn-primary">Kaydet</button>
+                                </div>
+                            </form>
+                            <!-- End Portfolio Add Form -->
+
+
+                        </div>
+
+
+                    </div><!-- End Bordered Tabs -->
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+

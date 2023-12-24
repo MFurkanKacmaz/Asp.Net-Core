@@ -1,0 +1,71 @@
+﻿@model IEnumerable<PortfolioViewModel>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+<section class="section profile">
+    <div class="row">
+        <div class="col-xl-8">
+
+            <div class="card">
+                <div class="card-body pt-3">
+
+                    <div class="tab-content pt-2">
+
+                        <div class="tab-pane fade show active profile-overview" id="profile-overview">
+
+                            <div class="row">
+                                <div class="col-md-10 col-sm-6">
+                                    <h5 class="card-title d-inline">Portfolio Detayları</h5>
+                                </div>
+                                <div class="col-md-2 col-sm-6">
+                                    <a class="btn btn-sm btn-outline-success" asp-controller="Portfolio" asp-action="Add">Yeni Ekle</a>
+                                </div>
+
+                            </div>
+                            @*
+                            <div class="" style="text-align:end;">
+                            <a class="btn btn-sm btn-outline-primary" asp-controller="Skill" asp-action="Add">Yeni Ekle</a>
+                            </div>
+                            *@
+
+                            <!-- Table with hoverable rows -->
+                            <table class="table table-hover">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">Foto</th>
+                                        <th scope="col">Kategori</th>
+                                        <th scope="col">İşlem</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var portfolio in ViewBag.Portfolios)
+                                    {
+                                        <tr>
+                                            <td><img src="~/images/@portfolio.Image" style="width:100px; height:100px; object-fit:cover;" alt="Portfolio" class="rounded" style="width:100px;"></td>
+                                            <td>@portfolio.Category</td>
+                                            <td>
+                                                <a class="btn btn-sm btn-outline-primary" asp-controller="Portfolio" asp-action="Edit" asp-route-id="@portfolio.Id">Düzenle</a>
+                                                &nbsp;
+                                                <a class="btn btn-sm btn-outline-danger" asp-controller="Portfolio" asp-action="Delete" asp-route-id="@portfolio.Id">Sil</a>
+                                            </td>
+                                        </tr>
+                                    }
+                                </tbody>
+                            </table>
+
+
+
+                        </div>
+
+
+                    </div><!-- End Bordered Tabs -->
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>

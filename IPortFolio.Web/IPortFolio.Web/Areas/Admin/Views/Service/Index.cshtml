@@ -1,0 +1,65 @@
+﻿@model IEnumerable<ServiceViewModel>
+
+@{
+    ViewData["Title"] = "Index";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+<section class="section profile">
+    <div class="row">
+        <div class="col-xl-12">
+
+            <div class="card">
+                <div class="card-body pt-3">
+
+                    <div class="tab-content pt-2">
+
+                        <div class="tab-pane fade show active profile-overview" id="profile-overview">
+
+                            <div class="row">
+                                <div class="col-md-10 col-sm-6">
+                                    <h5 class="card-title d-inline">Hizmet Detayları</h5>
+                                </div>
+                                <div class="col-md-2 col-sm-6">
+                                    <a class="btn btn-sm btn-outline-success" asp-controller="Service" asp-action="Add">Yeni Ekle</a>
+                                </div>
+
+                            </div>
+
+                            <!-- Table with hoverable rows -->
+                            <table class="table table-hover table-responsive">
+                                <thead>
+                                    <tr>
+                                        <th scope="col">Başlık</th>
+                                        <th scope="col">Açıklama</th>
+                                        <th scope="col">İşlem</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    @foreach (var service in ViewBag.Services)
+                                    {
+                                        <tr>
+                                            <td>@service.Title</td>
+                                            <td class="col-md-6">@service.Description</td>
+                                            <td>
+                                                <a class="btn btn-sm btn-outline-primary" asp-controller="Service" asp-action="Edit" asp-route-id="@service.Id">Düzenle</a>
+                                                &nbsp;
+                                                <a class="btn btn-sm btn-outline-danger" asp-controller="Service" asp-action="Delete" asp-route-id="@service.Id">Sil</a>
+                                            </td>
+                                        </tr>
+                                    }
+                                </tbody>
+                            </table>
+
+
+
+                        </div>
+
+
+                    </div><!-- End Bordered Tabs -->
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>

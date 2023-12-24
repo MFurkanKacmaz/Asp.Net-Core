@@ -1,0 +1,65 @@
+﻿@model PortfolioViewModel
+
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+<section class="section profile">
+    <div class="row">
+        <div class="col-xl-8">
+
+            <div class="card">
+                <div class="card-body pt-3">
+
+                    <div class="tab-content pt-2">
+
+                        <div class="tab-pane fade show active profile-overview" id="profile-overview">
+
+                            <h5 class="card-title">Portfolio Düzenle</h5>
+
+                            <!-- Portfolio Edit Form -->
+                            <form asp-area="Admin" asp-controller="Portfolio" asp-action="Edit" method="post" enctype="multipart/form-data">
+
+                                <input asp-for="Id" type="hidden">
+
+
+                                <div class="row mb-3">
+                                    <label asp-for="Image" class="col-md-4 col-lg-3 col-form-label">Foto</label>
+                                    <div class="col-md-8 col-lg-9">
+                                        <img src="~/images/@Model.Image" alt="Slider" class="rounded" style="width:200px;">
+                                        <input asp-for="UploadImage" type="file" class="form-control mt-3">
+                                    </div>
+                                </div>
+                                <hr />
+                                <div class="row mb-3">
+                                    <label asp-for="Category" class="col-md-4 col-lg-3 col-form-label">Kategori</label>
+                                    <div class="col-md-8 col-lg-9">
+                                        <select asp-for="Category" class="form-control">
+                                            <option value="app">Uygulama</option>
+                                            <option value="card">Kart</option>
+                                            <option value="web">Web</option>
+                                        </select>
+                                    </div>
+                                </div>
+
+                                <div class="text-center">
+                                    <button type="submit" class="btn btn-primary">Kaydet</button>
+                                </div>
+                            </form>
+                            <!-- End Portfolio Edit Form -->
+
+
+                        </div>
+
+
+                    </div><!-- End Bordered Tabs -->
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+

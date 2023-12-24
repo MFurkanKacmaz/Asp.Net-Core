@@ -1,0 +1,505 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\MONSTER\\source\\repos\\IPortFolio.Web\\IPortFolio.Web\\obj\\Debug\\net7.0\\scopedcss\\projectbundle\\IPortFolio.bundle.scp.css",
+      "PackagePath": "staticwebassets\\IPortFolio.bundle.scp.css"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\source\\repos\\IPortFolio.Web\\IPortFolio.Web\\wwwroot\\assets\\vendor\\bootstrap-icons\\bootstrap-icons.json",
+      "PackagePath": "staticwebassets\\assets\\vendor\\bootstrap-icons\\bootstrap-icons.json"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\source\\repos\\IPortFolio.Web\\IPortFolio.Web\\wwwroot\\css\\login.css",
+      "PackagePath": "staticwebassets\\css\\login.css"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\source\\repos\\IPortFolio.Web\\IPortFolio.Web\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\source\\repos\\IPortFolio.Web\\IPortFolio.Web\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\source\\repos\\IPortFolio.Web\\IPortFolio.Web\\wwwroot\\images\\2388650e-3e23-44da-baf9-68bef1a6f5ee.jpg",
+      "PackagePath": "staticwebassets\\images\\2388650e-3e23-44da-baf9-68bef1a6f5ee.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\source\\repos\\IPortFolio.Web\\IPortFolio.Web\\wwwroot\\images\\4af4f9c4-5e72-4721-a24e-040fbb7d4e2b.jpg",
+      "PackagePath": "staticwebassets\\images\\4af4f9c4-5e72-4721-a24e-040fbb7d4e2b.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\source\\repos\\IPortFolio.Web\\IPortFolio.Web\\wwwroot\\images\\8c6c72d2-7a36-4f61-bafd-85d8df725d22.jpg",
+      "PackagePath": "staticwebassets\\images\\8c6c72d2-7a36-4f61-bafd-85d8df725d22.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\source\\repos\\IPortFolio.Web\\IPortFolio.Web\\wwwroot\\images\\admin-logo.png",
+      "PackagePath": "staticwebassets\\images\\admin-logo.png"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\source\\repos\\IPortFolio.Web\\IPortFolio.Web\\wwwroot\\images\\bos-profil.png",
+      "PackagePath": "staticwebassets\\images\\bos-profil.png"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\source\\repos\\IPortFolio.Web\\IPortFolio.Web\\wwwroot\\images\\c0600263-460f-4a15-b7a7-f5ca9ea2042f.jpg",
+      "PackagePath": "staticwebassets\\images\\c0600263-460f-4a15-b7a7-f5ca9ea2042f.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\source\\repos\\IPortFolio.Web\\IPortFolio.Web\\wwwroot\\images\\c5554d90-1c6c-477c-8f19-9879b64b52ee.jpg",
+      "PackagePath": "staticwebassets\\images\\c5554d90-1c6c-477c-8f19-9879b64b52ee.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\source\\repos\\IPortFolio.Web\\IPortFolio.Web\\wwwroot\\images\\f3f6101b-3992-4778-bf3f-585c5d9d0852.jpg",
+      "PackagePath": "staticwebassets\\images\\f3f6101b-3992-4778-bf3f-585c5d9d0852.jpg"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\source\\repos\\IPortFolio.Web\\IPortFolio.Web\\wwwroot\\images\\portfolio-logo.png",
+      "PackagePath": "staticwebassets\\images\\portfolio-logo.png"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\source\\repos\\IPortFolio.Web\\IPortFolio.Web\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\source\\repos\\IPortFolio.Web\\IPortFolio.Web\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\source\\repos\\IPortFolio.Web\\IPortFolio.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\source\\repos\\IPortFolio.Web\\IPortFolio.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\source\\repos\\IPortFolio.Web\\IPortFolio.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\source\\repos\\IPortFolio.Web\\IPortFolio.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\source\\repos\\IPortFolio.Web\\IPortFolio.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\source\\repos\\IPortFolio.Web\\IPortFolio.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\source\\repos\\IPortFolio.Web\\IPortFolio.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\source\\repos\\IPortFolio.Web\\IPortFolio.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\source\\repos\\IPortFolio.Web\\IPortFolio.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\source\\repos\\IPortFolio.Web\\IPortFolio.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\source\\repos\\IPortFolio.Web\\IPortFolio.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\source\\repos\\IPortFolio.Web\\IPortFolio.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\source\\repos\\IPortFolio.Web\\IPortFolio.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\source\\repos\\IPortFolio.Web\\IPortFolio.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\source\\repos\\IPortFolio.Web\\IPortFolio.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\source\\repos\\IPortFolio.Web\\IPortFolio.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\source\\repos\\IPortFolio.Web\\IPortFolio.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\source\\repos\\IPortFolio.Web\\IPortFolio.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-theme.css.map"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\source\\repos\\IPortFolio.Web\\IPortFolio.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\source\\repos\\IPortFolio.Web\\IPortFolio.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-theme.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\source\\repos\\IPortFolio.Web\\IPortFolio.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\source\\repos\\IPortFolio.Web\\IPortFolio.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\source\\repos\\IPortFolio.Web\\IPortFolio.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\source\\repos\\IPortFolio.Web\\IPortFolio.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\source\\repos\\IPortFolio.Web\\IPortFolio.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\source\\repos\\IPortFolio.Web\\IPortFolio.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\source\\repos\\IPortFolio.Web\\IPortFolio.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\source\\repos\\IPortFolio.Web\\IPortFolio.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\source\\repos\\IPortFolio.Web\\IPortFolio.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\source\\repos\\IPortFolio.Web\\IPortFolio.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\source\\repos\\IPortFolio.Web\\IPortFolio.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\source\\repos\\IPortFolio.Web\\IPortFolio.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\source\\repos\\IPortFolio.Web\\IPortFolio.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\source\\repos\\IPortFolio.Web\\IPortFolio.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\source\\repos\\IPortFolio.Web\\IPortFolio.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\source\\repos\\IPortFolio.Web\\IPortFolio.Web\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\source\\repos\\IPortFolio.Web\\IPortFolio.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\source\\repos\\IPortFolio.Web\\IPortFolio.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\source\\repos\\IPortFolio.Web\\IPortFolio.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\source\\repos\\IPortFolio.Web\\IPortFolio.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\source\\repos\\IPortFolio.Web\\IPortFolio.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\source\\repos\\IPortFolio.Web\\IPortFolio.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\source\\repos\\IPortFolio.Web\\IPortFolio.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\source\\repos\\IPortFolio.Web\\IPortFolio.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\source\\repos\\IPortFolio.Web\\IPortFolio.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\source\\repos\\IPortFolio.Web\\IPortFolio.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\source\\repos\\IPortFolio.Web\\IPortFolio.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\source\\repos\\IPortFolio.Web\\IPortFolio.Web\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\source\\repos\\IPortFolio.Web\\IPortFolio.Web\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\source\\repos\\IPortFolio.Web\\IPortFolio.Web\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\source\\repos\\IPortFolio.Web\\IPortFolio.Web\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\source\\repos\\IPortFolio.Web\\IPortFolio.Web\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\source\\repos\\IPortFolio.Web\\IPortFolio.Web\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\source\\repos\\IPortFolio.Web\\IPortFolio.Web\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\source\\repos\\IPortFolio.Web\\IPortFolio.Web\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\source\\repos\\IPortFolio.Web\\IPortFolio.Web\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\source\\repos\\IPortFolio.Web\\IPortFolio.Web\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\source\\repos\\IPortFolio.Web\\IPortFolio.Web\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\source\\repos\\IPortFolio.Web\\IPortFolio.Web\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\source\\repos\\IPortFolio.Web\\IPortFolio.Web\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\source\\repos\\IPortFolio.Web\\IPortFolio.Web\\wwwroot\\nassets\\vendor\\apexcharts\\locales\\ar.json",
+      "PackagePath": "staticwebassets\\nassets\\vendor\\apexcharts\\locales\\ar.json"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\source\\repos\\IPortFolio.Web\\IPortFolio.Web\\wwwroot\\nassets\\vendor\\apexcharts\\locales\\ca.json",
+      "PackagePath": "staticwebassets\\nassets\\vendor\\apexcharts\\locales\\ca.json"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\source\\repos\\IPortFolio.Web\\IPortFolio.Web\\wwwroot\\nassets\\vendor\\apexcharts\\locales\\cs.json",
+      "PackagePath": "staticwebassets\\nassets\\vendor\\apexcharts\\locales\\cs.json"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\source\\repos\\IPortFolio.Web\\IPortFolio.Web\\wwwroot\\nassets\\vendor\\apexcharts\\locales\\da.json",
+      "PackagePath": "staticwebassets\\nassets\\vendor\\apexcharts\\locales\\da.json"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\source\\repos\\IPortFolio.Web\\IPortFolio.Web\\wwwroot\\nassets\\vendor\\apexcharts\\locales\\de.json",
+      "PackagePath": "staticwebassets\\nassets\\vendor\\apexcharts\\locales\\de.json"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\source\\repos\\IPortFolio.Web\\IPortFolio.Web\\wwwroot\\nassets\\vendor\\apexcharts\\locales\\el.json",
+      "PackagePath": "staticwebassets\\nassets\\vendor\\apexcharts\\locales\\el.json"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\source\\repos\\IPortFolio.Web\\IPortFolio.Web\\wwwroot\\nassets\\vendor\\apexcharts\\locales\\en.json",
+      "PackagePath": "staticwebassets\\nassets\\vendor\\apexcharts\\locales\\en.json"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\source\\repos\\IPortFolio.Web\\IPortFolio.Web\\wwwroot\\nassets\\vendor\\apexcharts\\locales\\es.json",
+      "PackagePath": "staticwebassets\\nassets\\vendor\\apexcharts\\locales\\es.json"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\source\\repos\\IPortFolio.Web\\IPortFolio.Web\\wwwroot\\nassets\\vendor\\apexcharts\\locales\\et.json",
+      "PackagePath": "staticwebassets\\nassets\\vendor\\apexcharts\\locales\\et.json"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\source\\repos\\IPortFolio.Web\\IPortFolio.Web\\wwwroot\\nassets\\vendor\\apexcharts\\locales\\fa.json",
+      "PackagePath": "staticwebassets\\nassets\\vendor\\apexcharts\\locales\\fa.json"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\source\\repos\\IPortFolio.Web\\IPortFolio.Web\\wwwroot\\nassets\\vendor\\apexcharts\\locales\\fi.json",
+      "PackagePath": "staticwebassets\\nassets\\vendor\\apexcharts\\locales\\fi.json"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\source\\repos\\IPortFolio.Web\\IPortFolio.Web\\wwwroot\\nassets\\vendor\\apexcharts\\locales\\fr.json",
+      "PackagePath": "staticwebassets\\nassets\\vendor\\apexcharts\\locales\\fr.json"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\source\\repos\\IPortFolio.Web\\IPortFolio.Web\\wwwroot\\nassets\\vendor\\apexcharts\\locales\\he.json",
+      "PackagePath": "staticwebassets\\nassets\\vendor\\apexcharts\\locales\\he.json"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\source\\repos\\IPortFolio.Web\\IPortFolio.Web\\wwwroot\\nassets\\vendor\\apexcharts\\locales\\hi.json",
+      "PackagePath": "staticwebassets\\nassets\\vendor\\apexcharts\\locales\\hi.json"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\source\\repos\\IPortFolio.Web\\IPortFolio.Web\\wwwroot\\nassets\\vendor\\apexcharts\\locales\\hr.json",
+      "PackagePath": "staticwebassets\\nassets\\vendor\\apexcharts\\locales\\hr.json"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\source\\repos\\IPortFolio.Web\\IPortFolio.Web\\wwwroot\\nassets\\vendor\\apexcharts\\locales\\hu.json",
+      "PackagePath": "staticwebassets\\nassets\\vendor\\apexcharts\\locales\\hu.json"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\source\\repos\\IPortFolio.Web\\IPortFolio.Web\\wwwroot\\nassets\\vendor\\apexcharts\\locales\\hy.json",
+      "PackagePath": "staticwebassets\\nassets\\vendor\\apexcharts\\locales\\hy.json"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\source\\repos\\IPortFolio.Web\\IPortFolio.Web\\wwwroot\\nassets\\vendor\\apexcharts\\locales\\id.json",
+      "PackagePath": "staticwebassets\\nassets\\vendor\\apexcharts\\locales\\id.json"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\source\\repos\\IPortFolio.Web\\IPortFolio.Web\\wwwroot\\nassets\\vendor\\apexcharts\\locales\\it.json",
+      "PackagePath": "staticwebassets\\nassets\\vendor\\apexcharts\\locales\\it.json"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\source\\repos\\IPortFolio.Web\\IPortFolio.Web\\wwwroot\\nassets\\vendor\\apexcharts\\locales\\ja.json",
+      "PackagePath": "staticwebassets\\nassets\\vendor\\apexcharts\\locales\\ja.json"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\source\\repos\\IPortFolio.Web\\IPortFolio.Web\\wwwroot\\nassets\\vendor\\apexcharts\\locales\\ka.json",
+      "PackagePath": "staticwebassets\\nassets\\vendor\\apexcharts\\locales\\ka.json"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\source\\repos\\IPortFolio.Web\\IPortFolio.Web\\wwwroot\\nassets\\vendor\\apexcharts\\locales\\ko.json",
+      "PackagePath": "staticwebassets\\nassets\\vendor\\apexcharts\\locales\\ko.json"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\source\\repos\\IPortFolio.Web\\IPortFolio.Web\\wwwroot\\nassets\\vendor\\apexcharts\\locales\\lt.json",
+      "PackagePath": "staticwebassets\\nassets\\vendor\\apexcharts\\locales\\lt.json"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\source\\repos\\IPortFolio.Web\\IPortFolio.Web\\wwwroot\\nassets\\vendor\\apexcharts\\locales\\lv.json",
+      "PackagePath": "staticwebassets\\nassets\\vendor\\apexcharts\\locales\\lv.json"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\source\\repos\\IPortFolio.Web\\IPortFolio.Web\\wwwroot\\nassets\\vendor\\apexcharts\\locales\\nb.json",
+      "PackagePath": "staticwebassets\\nassets\\vendor\\apexcharts\\locales\\nb.json"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\source\\repos\\IPortFolio.Web\\IPortFolio.Web\\wwwroot\\nassets\\vendor\\apexcharts\\locales\\nl.json",
+      "PackagePath": "staticwebassets\\nassets\\vendor\\apexcharts\\locales\\nl.json"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\source\\repos\\IPortFolio.Web\\IPortFolio.Web\\wwwroot\\nassets\\vendor\\apexcharts\\locales\\pl.json",
+      "PackagePath": "staticwebassets\\nassets\\vendor\\apexcharts\\locales\\pl.json"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\source\\repos\\IPortFolio.Web\\IPortFolio.Web\\wwwroot\\nassets\\vendor\\apexcharts\\locales\\pt-br.json",
+      "PackagePath": "staticwebassets\\nassets\\vendor\\apexcharts\\locales\\pt-br.json"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\source\\repos\\IPortFolio.Web\\IPortFolio.Web\\wwwroot\\nassets\\vendor\\apexcharts\\locales\\pt.json",
+      "PackagePath": "staticwebassets\\nassets\\vendor\\apexcharts\\locales\\pt.json"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\source\\repos\\IPortFolio.Web\\IPortFolio.Web\\wwwroot\\nassets\\vendor\\apexcharts\\locales\\rs.json",
+      "PackagePath": "staticwebassets\\nassets\\vendor\\apexcharts\\locales\\rs.json"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\source\\repos\\IPortFolio.Web\\IPortFolio.Web\\wwwroot\\nassets\\vendor\\apexcharts\\locales\\ru.json",
+      "PackagePath": "staticwebassets\\nassets\\vendor\\apexcharts\\locales\\ru.json"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\source\\repos\\IPortFolio.Web\\IPortFolio.Web\\wwwroot\\nassets\\vendor\\apexcharts\\locales\\se.json",
+      "PackagePath": "staticwebassets\\nassets\\vendor\\apexcharts\\locales\\se.json"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\source\\repos\\IPortFolio.Web\\IPortFolio.Web\\wwwroot\\nassets\\vendor\\apexcharts\\locales\\sk.json",
+      "PackagePath": "staticwebassets\\nassets\\vendor\\apexcharts\\locales\\sk.json"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\source\\repos\\IPortFolio.Web\\IPortFolio.Web\\wwwroot\\nassets\\vendor\\apexcharts\\locales\\sl.json",
+      "PackagePath": "staticwebassets\\nassets\\vendor\\apexcharts\\locales\\sl.json"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\source\\repos\\IPortFolio.Web\\IPortFolio.Web\\wwwroot\\nassets\\vendor\\apexcharts\\locales\\sq.json",
+      "PackagePath": "staticwebassets\\nassets\\vendor\\apexcharts\\locales\\sq.json"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\source\\repos\\IPortFolio.Web\\IPortFolio.Web\\wwwroot\\nassets\\vendor\\apexcharts\\locales\\th.json",
+      "PackagePath": "staticwebassets\\nassets\\vendor\\apexcharts\\locales\\th.json"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\source\\repos\\IPortFolio.Web\\IPortFolio.Web\\wwwroot\\nassets\\vendor\\apexcharts\\locales\\tr.json",
+      "PackagePath": "staticwebassets\\nassets\\vendor\\apexcharts\\locales\\tr.json"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\source\\repos\\IPortFolio.Web\\IPortFolio.Web\\wwwroot\\nassets\\vendor\\apexcharts\\locales\\ua.json",
+      "PackagePath": "staticwebassets\\nassets\\vendor\\apexcharts\\locales\\ua.json"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\source\\repos\\IPortFolio.Web\\IPortFolio.Web\\wwwroot\\nassets\\vendor\\apexcharts\\locales\\zh-cn.json",
+      "PackagePath": "staticwebassets\\nassets\\vendor\\apexcharts\\locales\\zh-cn.json"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\source\\repos\\IPortFolio.Web\\IPortFolio.Web\\wwwroot\\nassets\\vendor\\apexcharts\\locales\\zh-tw.json",
+      "PackagePath": "staticwebassets\\nassets\\vendor\\apexcharts\\locales\\zh-tw.json"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\source\\repos\\IPortFolio.Web\\IPortFolio.Web\\wwwroot\\nassets\\vendor\\bootstrap-icons\\bootstrap-icons.json",
+      "PackagePath": "staticwebassets\\nassets\\vendor\\bootstrap-icons\\bootstrap-icons.json"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\source\\repos\\IPortFolio.Web\\IPortFolio.Web\\wwwroot\\nassets\\vendor\\remixicon\\remixicon.glyph.json",
+      "PackagePath": "staticwebassets\\nassets\\vendor\\remixicon\\remixicon.glyph.json"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\source\\repos\\IPortFolio.Web\\IPortFolio.Web\\wwwroot\\nassets\\vendor\\tinymce\\bower.json",
+      "PackagePath": "staticwebassets\\nassets\\vendor\\tinymce\\bower.json"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\source\\repos\\IPortFolio.Web\\IPortFolio.Web\\wwwroot\\nassets\\vendor\\tinymce\\composer.json",
+      "PackagePath": "staticwebassets\\nassets\\vendor\\tinymce\\composer.json"
+    },
+    {
+      "Id": "C:\\Users\\MONSTER\\source\\repos\\IPortFolio.Web\\IPortFolio.Web\\wwwroot\\nassets\\vendor\\tinymce\\package.json",
+      "PackagePath": "staticwebassets\\nassets\\vendor\\tinymce\\package.json"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.IPortFolio.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.IPortFolio.props",
+      "PackagePath": "build\\IPortFolio.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.IPortFolio.props",
+      "PackagePath": "buildMultiTargeting\\IPortFolio.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.IPortFolio.props",
+      "PackagePath": "buildTransitive\\IPortFolio.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

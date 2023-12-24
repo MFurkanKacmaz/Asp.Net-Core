@@ -1,0 +1,80 @@
+﻿@model ResumeViewModel
+
+@{
+    ViewData["Title"] = "Edit";
+    Layout = "~/Areas/Admin/Views/Shared/_Layout.cshtml";
+}
+
+<section class="section profile">
+    <div class="row">
+        <div class="col-xl-8">
+
+            <div class="card">
+                <div class="card-body pt-3">
+
+                    <div class="tab-content pt-2">
+
+                        <div class="tab-pane fade show active profile-overview" id="profile-overview">
+
+                            <h5 class="card-title">Öz Geçmiş Düzenle</h5>
+
+                            <!-- Resume Edit Form -->
+                            <form asp-area="Admin" asp-controller="Resume" asp-action="Edit" method="post" enctype="multipart/form-data">
+
+                                <input asp-for="Id" type="hidden">
+
+                                <div class="row mb-3">
+                                    <label asp-for="Department" class="col-md-4 col-lg-3 col-form-label">Departman</label>
+                                    <div class="col-md-8 col-lg-9">
+                                        <input asp-for="Department" class="form-control">
+                                    </div>
+                                </div>
+
+                                <div class="row mb-3">
+                                    <label asp-for="StartYear" class="col-md-4 col-lg-3 col-form-label">Başlangıç Yılı</label>
+                                    <div class="col-md-8 col-lg-9">
+                                        <input asp-for="StartYear" class="form-control">
+                                    </div>
+                                </div>
+
+                                <div class="row mb-3">
+                                    <label asp-for="EndYear" class="col-md-4 col-lg-3 col-form-label">Bitiş Yılı</label>
+                                    <div class="col-md-8 col-lg-9">
+                                        <input asp-for="EndYear" class="form-control">
+                                    </div>
+                                </div>
+
+                                <div class="row mb-3">
+                                    <label asp-for="Organisation" class="col-md-4 col-lg-3 col-form-label">Kurum</label>
+                                    <div class="col-md-8 col-lg-9">
+                                        <input asp-for="Organisation" class="form-control">
+                                    </div>
+                                </div>
+                                <div class="row mb-3">
+                                    <label asp-for="Content" class="col-md-4 col-lg-3 col-form-label">Açıklama</label>
+                                    <div class="col-md-8 col-lg-9">
+                                        <input asp-for="Content" class="form-control">
+                                    </div>
+                                </div>
+
+                                <div class="text-center">
+                                    <button type="submit" class="btn btn-primary">Kaydet</button>
+                                </div>
+                            </form>
+                            <!-- End Resume Edit Form -->
+
+
+                        </div>
+
+
+                    </div><!-- End Bordered Tabs -->
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+
